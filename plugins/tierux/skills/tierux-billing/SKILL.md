@@ -24,9 +24,11 @@ Check the `tierux` MCP server is connected — try `list_apps`.
 
 ## Approval protocol — do not skip
 
-Every write tool returns a **preview** plus a `confirmToken` and persists nothing on
-that first call. Show the preview, get an explicit yes, then call the **same tool
-again with identical arguments plus `confirmToken`**.
+When a write tool returns a **preview** plus a `confirmToken`, show the preview, get
+an explicit yes, then call the **same tool again with identical arguments plus
+`confirmToken`**. Guided setup tools use step-specific guide tokens instead; show
+each step and get explicit approval before submitting credentials or advancing to a
+step that persists configuration.
 
 Never fabricate a token, never reuse one across tools, and never auto-confirm.
 `create_play_product` and `create_app_store_product` write to the real store and are
@@ -86,8 +88,9 @@ failures are missing credentials or an unmapped product.
 
 ## Known limits — say so rather than improvising
 
-Apple support is implemented but not at parity with Google Play: S2S notifications,
-win-back, and pay-what-you-want are not wired for iOS, and
-`update_app_store_product` / `delete_app_store_product` are no-ops because the App
-Store Connect API does not support programmatic edits after creation. App Store
-Connect product setup remains partly manual.
+Apple support is implemented but not at parity with Google Play: App Store Server
+Notifications v2 are wired but less production-hardened than RTDN; win-back and
+pay-what-you-want are not wired for iOS. `update_app_store_product` and
+`delete_app_store_product` return `OPERATION_NOT_SUPPORTED` because App Store Connect
+does not support programmatic edits after creation. App Store Connect product setup
+remains partly manual.

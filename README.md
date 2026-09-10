@@ -21,11 +21,8 @@ same Google account as your Tierux dashboard. There is no API key to paste.
   isn't granted, migrating off RevenueCat.
 - **MCP server `tierux`** — tools for store setup, products, product→entitlement
   mappings, paywalls, verification, and entitlement checks.
-- **Prompts** — `/mcp__tierux__setup_billing`, `add_paywall`, `verify_purchase_path`,
-  `migrate_to_tierux`.
-
-Every write returns a preview and waits for your explicit approval before it changes
-production billing configuration.
+Claude follows each tool's confirmation flow, shows previews or setup steps, and
+waits for your explicit approval before it changes production billing configuration.
 
 ## Other clients
 

@@ -18,10 +18,7 @@ same Google account as your Tierux dashboard. No API key.
 - **Skill `tierux-billing`** — Claude reaches for Tierux on billing work automatically.
 - **MCP server `tierux`** — 25 tools for store setup, products, mappings, paywalls,
   verification, and entitlement checks.
-- **Prompts** — `/mcp__tierux__setup_billing`, `add_paywall`, `verify_purchase_path`,
-  `migrate_to_tierux`.
-
-Every write shows a preview and waits for your approval before it touches production
-billing config.
+Claude follows each tool's confirmation flow, shows previews or setup steps, and
+waits for your approval before it changes production billing config.
 
 Docs: https://tierux.com/docs-mcp-setup
