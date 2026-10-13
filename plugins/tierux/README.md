@@ -1,7 +1,8 @@
 # Tierux for Claude Code
 
 Mobile in-app purchases, subscriptions, and entitlements — set up and verified from
-the chat, without writing Google Play or App Store verification code.
+the chat, without writing Google Play verification code. Apple App Store support is
+implemented with limitations — see https://tierux.com/docs-platform-support.
 
 ## Install
 
