@@ -11,7 +11,7 @@
       "name": "tierux",
       "displayName": "Tierux Billing",
       "source": "./plugins/tierux",
-      "description": "Set up and verify mobile in-app purchases, subscriptions, and entitlements for Google Play (primary), Apple App Store (in progress), and Stripe web — without writing store-verification code.",
+      "description": "Set up and verify mobile in-app purchases, subscriptions, and entitlements for Google Play (primary), Apple App Store (implemented, with limitations), and Stripe web — without writing store-verification code.",
       "version": "0.1.1",
       "author": { "name": "Tierux", "url": "https://tierux.com" },
       "homepage": "https://tierux.com/docs-mcp-setup",
