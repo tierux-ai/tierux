@@ -1,7 +1,7 @@
 # Tierux for Claude Code
 
 Mobile in-app purchases, subscriptions, and entitlements — set up and verified from
-the chat, without writing Google Play or App Store verification code.
+the chat, without writing Google Play verification code (App Store support is in progress).
 
 ## Install
 
@@ -12,7 +12,7 @@ the chat, without writing Google Play or App Store verification code.
 
 Then authorize the bundled MCP server once: `/mcp` → `tierux` → authenticate with the
 same Google account as your Tierux dashboard. There is no API key to paste.
-(`pe_live_` keys are for the REST API and are rejected by the MCP server.)
+(`spe_` keys are for the REST API and are rejected by the MCP server.)
 
 ## What you get
 
