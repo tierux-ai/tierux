@@ -1,0 +1,29 @@
+{
+  "name": "tierux",
+  "version": "0.1.4",
+  "description": "Set up and verify mobile in-app purchases, subscriptions, and entitlements for Google Play (primary), Apple App Store (with limitations), and Stripe web — without writing store-verification code.",
+  "author": { "name": "Tierux", "url": "https://tierux.com" },
+  "homepage": "https://tierux.com/docs-mcp-setup",
+  "repository": "https://github.com/tierux-ai/tierux",
+  "license": "ISC",
+  "keywords": ["billing", "subscriptions", "in-app-purchase", "entitlements", "google-play", "app-store", "storekit", "paywall"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Tierux Billing",
+    "shortDescription": "Server-verified app purchases",
+    "longDescription": "Set up and verify mobile in-app purchases, subscriptions, and entitlements for Google Play (primary), Apple App Store (with limitations), and Stripe web through the Tierux MCP server.",
+    "developerName": "Tierux",
+    "category": "Developer Tools",
+    "capabilities": ["Interactive", "Write"],
+    "websiteURL": "https://tierux.com",
+    "supportURL": "https://tierux.com/support",
+    "privacyPolicyURL": "https://tierux.com/privacy",
+    "termsOfServiceURL": "https://tierux.com/terms",
+    "defaultPrompt": ["Set up Google Play subscriptions for my app with Tierux"],
+    "brandColor": "#3B82F6",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png",
+    "screenshots": []
+  }
+}

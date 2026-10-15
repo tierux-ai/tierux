@@ -1,7 +1,7 @@
 {
   "name": "tierux",
   "description": "Tierux plugins for Claude Code — mobile in-app purchases, subscriptions, and entitlements.",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "owner": {
     "name": "Tierux",
     "url": "https://tierux.com"
@@ -11,8 +11,8 @@
       "name": "tierux",
       "displayName": "Tierux Billing",
       "source": "./plugins/tierux",
-      "description": "Set up and verify mobile in-app purchases, subscriptions, and entitlements for Google Play, App Store, and Stripe web — without writing store-verification code.",
-      "version": "0.1.0",
+      "description": "Set up and verify mobile in-app purchases, subscriptions, and entitlements for Google Play (primary), Apple App Store (with limitations), and Stripe web — without writing store-verification code.",
+      "version": "0.1.4",
       "author": { "name": "Tierux", "url": "https://tierux.com" },
       "homepage": "https://tierux.com/docs-mcp-setup",
       "license": "ISC",

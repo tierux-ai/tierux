@@ -1,7 +1,8 @@
 # Tierux for Claude Code
 
-Mobile in-app purchases, subscriptions, and entitlements — set up and verified from
-the chat, without writing Google Play or App Store verification code.
+Set up and verify mobile in-app purchases, subscriptions, and entitlements for Google
+Play (primary), Apple App Store (with limitations), and Stripe web — without writing
+store-verification code. Per-feature status: https://tierux.com/docs-platform-support
 
 ## Install
 

@@ -17,7 +17,7 @@ Check the `tierux` MCP server is connected — try `list_apps`.
 - **Not connected / unauthorized?** The plugin ships the server config, so the user
   only needs to authorize it: tell them to run `/mcp`, pick `tierux`, and
   authenticate (Google sign-in, same account as their Tierux dashboard). There is no
-  API key to paste. A `pe_live_` key is REST-only and will be rejected here.
+  API key to paste. An `spe_` key is REST-only and will be rejected here.
 - **No apps yet?** Propose `create_project`, using the package name / bundle id you
   can read out of the repo (`build.gradle`, `Info.plist`, `app.json`) rather than
   asking the user to retype it.
